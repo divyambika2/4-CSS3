@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Media Queries</title>
+        <style>
+            /* hsl:hue,saturation,lightness */
+            .container{
+                margin: 0 auto;
+                background: hsl(154,94%,37%);
+                box-sizing: border-box;
+            }
+            /* Smart Phones (portrait and landscape)-----*/
+            @media screen and (min-width:767px) {
+                .container{
+                    width: 100%;
+                    padding: 5px 10px;
+                }
+            }
+            /* Low resolution Desktops and Laptops-----*/
+            @media screen and (min-width:1024px) {
+                .container{
+                    width: 1200px;
+                    padding: 5px 15px;
+                }
+            }
+              /* High resolution Desktops and Laptops-----*/
+              @media screen and (min-width:1024px) {
+                .container{
+                    width: 1200px;
+                    padding: 5px 20px;
+                }
+            }   
+        </style>
+    </head>
+    <body>
+        <div class="container">
+       <p>This Media Queries in CSS3.This Media Queries in CSS3.This Media Queriesin CSS3
+        This Media Queries in CSS3.This Media Queries in CSS3.This Media Queriesin CSS3
+        This Media Queries in CSS3.This Media Queries in CSS3.This Media Queriesin CSS3/</p>
+    </body>
+</html>
